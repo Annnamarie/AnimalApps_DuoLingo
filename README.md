@@ -34,7 +34,7 @@ The following EXTRA features are implemented:
 
 I have chosen to duplicate the following layout from the DuoLingo app:
 
-<img src='https://cdn.designvault.io/media/20221221164246/742ae968.jpg' title='DuoLingo' width='' alt='DuoLingo' />
+<img src='https://cdn.designvault.io/media/20221221164246/742ae968.jpg' title='DuoLingo' width='300' alt='DuoLingo' />
 
 ## Video Demo
 
