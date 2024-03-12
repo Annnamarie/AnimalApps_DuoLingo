@@ -14,7 +14,6 @@ If I had to describe this project in three (3) emojis, they would be:  😅🤔�
 The following REQUIRED features are completed:
 
 - [x] Pick an app screenshot to duplicate
-  - Be sure to add the screenshot to "Chosen Screenshot" below.
 - [x] Create a runnable app that displays an Animal Version of your chosen screenshot
 - [x] Layout uses one (1) or more ConstraintLayout
 - [x] Layout uses one (1) or more ImageView
@@ -22,14 +21,14 @@ The following REQUIRED features are completed:
 
 The following STRETCH features are implemented:
 
-- [ ] Create a custom-shape Button using Shape Drawables
-- [ ] Customize the text fonts by creating new Font Resources
-- [ ] Add Tooltips to your Views to help users understand how to navigate the UI
+- [x] Create a custom-shape Button using Shape Drawables
+- [x] Customize the text fonts by creating new Font Resources
+- [x] Add Tooltips to your Views to help users understand how to navigate the UI
 - [ ] Create a second layout, this time for an original, personal app idea
 
 The following EXTRA features are implemented:
 
-- [ ] List anything else that you added to improve the app!
+- [x] Custom-shape for progress bar
 
 ## Chosen Screenshot
 
@@ -41,14 +40,14 @@ I have chosen to duplicate the following layout from the DuoLingo app:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://i.imgur.com/OctBjA3.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://i.imgur.com/Y5aXFy1.gif' title='Video Demo' width='' alt='Video Demo' />
 
 GIF created with ScreenToGif and Imgur
 
 
 ## Notes
 
-I learned to duplicate an app screen by using constraint layout, and addding buttons, imageview, progressbar, and textview.
+I learned to duplicate an app screen by using constraint layout, and addding buttons, imageview, progress bar, and textview. Also explored the stretch features which was creating custom-shape button, custom-shape progress bar, added external fonts, and tooltips.
 
 ## License
 
