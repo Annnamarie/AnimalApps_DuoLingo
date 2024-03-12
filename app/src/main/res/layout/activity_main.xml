@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/LessonComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Lesson Complete!"
+        android:textColor="#7D7D7D"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/ComboBonus"
+        app:layout_constraintEnd_toStartOf="@+id/pawPoint1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DailyGoal" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="370dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#FCBA03"
+        android:text="Continue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DailyGoal"
+        app:layout_constraintVertical_bias="0.928" />
+
+    <TextView
+        android:id="@+id/DailyGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="You reached your daily goal!"
+        android:textColor="#404040"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+    <TextView
+        android:id="@+id/ComboBonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Combo bonus!"
+        android:textColor="#7D7D7D"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toStartOf="@+id/PawPoint2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LessonComplete" />
+
+    <TextView
+        android:id="@+id/pawPoint1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="+10 Paw Points"
+        android:textColor="#FCBA03"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/PawPoint2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/LessonComplete"
+        app:layout_constraintTop_toBottomOf="@+id/DailyGoal" />
+
+    <TextView
+        android:id="@+id/PawPoint2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="+2 Paw Points"
+        android:textColor="#FCBA03"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ComboBonus"
+        app:layout_constraintTop_toBottomOf="@+id/pawPoint1" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="294dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="27dp"
+        android:backgroundTint="#FEC702"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateOnly="false"
+        android:indeterminateTint="#FEC702"
+        android:indeterminateTintMode="src_in"
+        android:max="100"
+        android:maxWidth="50dip"
+        android:minHeight="50dip"
+        android:progress="100"
+        android:progressTint="#FEC702"
+        android:scrollbarDefaultDelayBeforeFade="100"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/DailyGoal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="184dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/duolingo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
